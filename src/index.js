@@ -1,11 +1,10 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import Modal from "./Modal/modal";
-
+import IntersectionObserver from "./ScrollSpy/IntersectionObserver";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <Modal />
+    <IntersectionObserver />
   </StrictMode>,
   rootElement
 );
